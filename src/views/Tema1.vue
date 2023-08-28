@@ -146,11 +146,16 @@
 
       .py-4.py-md-5(titulo="Diseño" :icono="require('@/assets/curso/temas/img8.svg')")
         p.mb-4 #[span.etiqueta--amarilla Diseño:] la siguiente figura tiene la representación del resultado al análisis anterior.
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 3
-          span Metodología de creación de algoritmos
-        figure.my-5
-          img(src='@/assets/curso/temas/img11.png', alt='Texto que describa la imagen' style='width:600px').m-auto
+
+        .row.justify-content-center
+          .col-12.col-lg-8
+
+            figure.bg-gray
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 3
+                span Metodología de creación de algoritmos
+
+              img(src='@/assets/curso/temas/img11.png', alt='Texto que describa la imagen' style='width:600px').m-auto
 
     p Las pruebas de escritorio permiten verificar que el pseudocódigo realice lo que se espera al resolver el problema. Sin embargo, por ahora es importante que a todos los pseudocódigos se les aplique, al menos, una de prueba de escritorio o las que se consideren necesarias.
     p #[strong La mayoría de las pruebas de escritorio se representan en una tabla, donde en cada columna se anotan las variables y condiciones si las hay,] en el   orden en que aparecen en el algoritmo, #[strong para entenderlo se tiene que recorrer línea a línea el pseudocódigo y así identificar tanto las variables  como condiciones] e ir anotándolas en la tabla de la prueba de escritorio.
