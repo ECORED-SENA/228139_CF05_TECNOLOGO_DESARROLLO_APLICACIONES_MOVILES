@@ -8,12 +8,12 @@
       h1 Diagramas de flujo
 
     p Una forma común de presentar los algoritmos es con diagramas de flujo, que consiste en una representación por medio de un gráfico. Mientras en pseudocódigo las sentencias se representaban con preposiciones en diagramas de flujo la preposición es reemplazada por una figura.
-      br
-      br
-      |La representación del algoritmo de la figura 4 sería:
+    p La representación del algoritmo de la figura 4 sería:
+
     figure.my-5
       img(src='@/assets/curso/temas/img13.png', alt='Texto que describa la imagen')
-      figcaption.mt-3 Figura 5. Diagrama de flujo imprimir un entero
+      figcaption Figura 5. Diagrama de flujo imprimir un entero
+
     p.mb-3 Es ideal revisar la siguiente infografía sobre las ventajas de la representación gráfica de un algoritmo a través del diagrama de flujo:
     .tarjeta.tarjeta--gris.p-4.p-md-5.mt-5.mb-5
       .row.justify-content-around.align-items-center

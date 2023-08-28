@@ -117,6 +117,84 @@ export default {
         titulo: 'Programación modular',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'tema8',
+        numero: '8',
+        titulo: 'Conceptos básicos de programación.',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema9',
+        numero: '9',
+        titulo: 'Entornos de codificación e instalación JavaScript',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema10',
+        numero: '10',
+        titulo: 'Sintaxis del lenguaje JavaScript',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '10.1',
+            titulo: 'Funciones y operaciones matemáticas',
+            hash: 't_10_1',
+          },
+          {
+            numero: '10.2',
+            titulo: 'Tipos de datos, operadores y orden de evaluación',
+            hash: 't_10_2',
+          },
+          {
+            numero: '10.3',
+            titulo: 'Expresiones y comentarios.',
+            hash: 't_10_3',
+          },
+          {
+            numero: '10.4',
+            titulo: 'Estructuras de selección ',
+            hash: 't_10_4',
+          },
+          {
+            numero: '10.5',
+            titulo: 'Estructuras de repetición ',
+            hash: 't_10_5',
+          },
+          {
+            numero: '10.6',
+            titulo: 'Estructuras de datos',
+            hash: 't_10_6',
+          },
+          {
+            numero: '10.7',
+            titulo: 'Estructuras de salto',
+            hash: 't_10_7',
+          },
+          {
+            numero: '10.8',
+            titulo: 'Métodos de ordenamiento y búsqueda',
+            hash: 't_10_8',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema11',
+        numero: '11',
+        titulo: 'Depuración y fallas de sintaxis',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema12',
+        numero: '12',
+        titulo: 'Fallas de lógica  ',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema13',
+        numero: '13',
+        titulo: 'Manejo de errores y excepciones',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
@@ -165,157 +243,133 @@ export default {
   },
   complementario: [
     {
-      tema: '1.1 Planeación',
+      tema: '2. Diagramas de flujo',
       referencia:
-        'todopmp.com. (s.f.). <em>Guía PMBOK 6 – 49 procesos, entradas, herramientas y salidas</em>.',
-      tipo: 'Página web',
-      link: 'https://todopmp.com/cards/',
+        'Material_Audiovisual_100319633. (6 de enero de 2021). App Diagrams.net (básico para diagramas de flujo). [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/jdnqmFpqTvo ',
     },
     {
-      tema: '1.1 Planeación',
+      tema: '2. Diagramas de flujo',
       referencia:
-        'EDAP – Project Business School. (2016). <em>MOOC PMP 302 Identificar Interesados</em> (video). YouTube.',
+        'Enrique Olivares. (23 de febrero de 2016). Introducción a utilizar el programa DIA para diagramas de flujo a nivel bachillerato. [Video]. YouTube. ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=aUkTxgaajBo',
+      link: 'https://youtu.be/DnRx9D7QWg8',
     },
     {
-      tema: '1.1 Planeación',
+      tema: '2. Diagramas de flujo',
       referencia:
-        'Virtual Training Lteam. (2016). <em>Partes Interesadas Stakeholders</em> (video). YouTube.',
+        'DiscoDurodeRoer. (27 de abril de 2015). Ejercicios PseInt - Básicos #1 - Empezando por lo básico. [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=9AtaIAZEu0c',
+      link: 'https://youtu.be/DHIi4dcaMEc ',
     },
     {
-      tema: '1.1 Planeación',
+      tema: '2. Diagramas de flujo',
       referencia:
-        'Calle, M. (2020). <em>Análisis de Interesados Mariz Poder Interés - PMI</em> (video). YouTube.',
+        'Insituto de Informática Uach. (08 de septiembre de 2020). Cómo descargar Draw.io 2 para dibujar diagramas de flujo. [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=hDZ0uu0H1wc',
-    },
-    {
-      tema: '1.2 Técnicas e instrumentos para elicitar requisitos',
-      referencia:
-        'Jibaro X. (2019). <em>Tipos de Pregundas en una encuesta</em> (video). YouTube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=mwnQuUi9014',
+      link: 'https://www.youtube.com/watch?v=encz3h8TLWA',
     },
   ],
   glosario: [
     {
-      termino: 'Ciclo de vida <em>software</em>',
+      termino: 'Código fuente',
       significado:
-        'se refiere a la aplicación de metodologías para el desarrollo del sistema <em>software</em> (AECC, 1986).',
+        'compuesto por la línea de texto de un programa en determinado lenguaje de programación.',
     },
     {
-      termino: 'Método',
+      termino: 'Código máquina',
       significado:
-        'indica cómo construir técnicamente el <em>software</em>. Se incluyen técnicas de modelado y otras técnicas descriptivas.',
+        'código de instrucciones que directamente interpreta el circuito microprogramable microprocesador de una computadora.',
     },
     {
-      termino: 'Metodología',
-      significado: 'colección de métodos para resolver un tipo de problemas.',
+      termino: 'Compilador',
+      significado:
+        'programa de computador encargado de traducir el código fuente de otro programa escrito en un lenguaje de programación a otro lenguaje de programación.',
     },
     {
-      termino: 'Ágil',
-      significado:
-        'comprende un conjunto de tareas o acciones que se utilizan para producir y mantener productos, así como para lograr los objetivos del proceso. La actividad incluye los procedimientos, estándares, políticas y objetivos para crear y modificar un conjunto de productos de trabajo.',
+      termino: 'Concatenar',
+      significado: 'unir o enlazar dos o más cosas (RAE, 2021).',
     },
     {
-      termino: 'Requerimiento',
+      termino: 'Iteración',
       significado:
-        'el requerimiento se refiere a la petición que se hace de algo que se solicita.',
+        'es repetir sucesivas veces un proceso con la finalidad de lograr una meta resultado u objetivo. A cada repetición del proceso también se le denomina "iteración", generalmente, y los resultados obtenidos en una iteración se emplean como punto de partida hacia la siguiente iteración.',
     },
     {
-      termino: 'Requisito',
+      termino: 'Modularidad',
       significado:
-        'es la condición que debe cumplir algo, en general el requisito cumple con lo que se requiere con el requerimiento.',
-    },
-    {
-      termino: '<em>Stakeholders</em>',
-      significado:
-        'individuo u organización que comparte, reclama o le interesa un sistema o le compete una característica que satisface sus necesidades y expectativas (ISO 29148).',
+        'consiste en dividir un programa en módulos, cada uno de ellos debe poder ejecutarse por separado, pero están diseñados para trabajar con otros módulos.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Baar, B. (2006). Using Stakeholder Analysis in Software Project Management. Universidad de Amsterdam.',
+        'Autodidacta, F. (11 de mayo de 2017). Depurar o hacer debug a JavaScript con Google Chrome. [Video]',
+      link: 'https://www.youtube.com/watch?v=I388w3wDkjc&t=192s',
     },
     {
       referencia:
-        'Braude, J. (2003). Ingeniería de software, una perspectiva orientada a objetos. Alfaomega.',
+        'Choque, R. C. (10 de mayo de 2020). Cómo usar la consola de Google Chrome para JavaScript. [Video]',
+      link: 'https://www.youtube.com/watch?v=Hf3n-p3VYx4',
     },
     {
       referencia:
-        'Cohen, L. (2011). Métodos de investigación educativa. La Muralla.',
+        'Framebits. (19 de enero de 2020). Descargar e instalar Node Js en Windows 10. [Video].',
+      link: 'https://youtu.be/v0x1Ku5Tgac',
     },
     {
       referencia:
-        'Cohn, M. (2004). User Stories Applied for Agile Software Development. Pearson Education, Inc.',
+        'López, J. (2009). Algoritmos y programación (guía para docentes).',
+      link: 'https://eduteka.icesi.edu.co',
     },
     {
-      referencia:
-        'Cox, K., Niazi, M., y Verner, J. (2009). Empirical study of Sommerville and Sawyer’s requirements engineering practices. IET Software, 3(5), 339.',
-      link: 'https://doi.org/10.1049/iet-sen.2008.0076',
-    },
-    {
-      referencia:
-        'Curso de interacción persona-ordenador. (2021). Storyboarding',
-      link: 'https://mpiua.invid.udl.cat/storyboarding',
-    },
-    {
-      referencia:
-        'Denscombe, M. (2010). The Good Research Guide. McGraw-Hill Education.',
-    },
-    {
-      referencia:
-        'Dornyei, Z. (2010). Questionnaires in Second Language Research: Construction, Administration, and Processing. Routledge.',
-    },
-    {
-      referencia:
-        'Durán, A., Bernárdez, B., Ruiz, A. y Toro, M. (1999). A Requirements Elicitatio Approach Based in Templates and Patterns.',
+      referencia: 'MDN. (2021). Array - JavaScript.',
       link:
-        'https://www.researchgate.net/publication/2890318_A_Requirements_Elicitation_Approach_Based_in_Templates_and_Patterns',
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array',
     },
     {
-      referencia:
-        'Gause, C., & Weinberg, G. M. (1989). Exploring Requirements: Quality Before Design. Dorset House.',
-    },
-    {
-      referencia:
-        'Granollers, T., Lorés, J., y Perdrix F. (2002). Prototipado. Capítulo 5: modelo de proceso de la ingeniería de la usabilidad y de la accesibilidad.',
-    },
-    {
-      referencia:
-        'Hernández, S., Fernández C., y Baptista L. (2006). Metodología de la investigación. McGraw Hill.',
-    },
-    {
-      referencia:
-        'Herrera J., Lizka J. (2003). Ingeniería de requerimientos, ingeniería de software.',
-      link: 'http://www.monografias.com/trabajos6/resof/resof.shtml',
-    },
-    {
-      referencia:
-        'La oficina de proyectos de informática (2012). PMOinformatica.com.',
+      referencia: 'MDN. (2021a). Expresiones y operadores - JavaScript.',
       link:
-        'http://www.pmoinformatica.com/2012/10/plantillas-scrum-historias-de-usuario.html',
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators',
+    },
+    {
+      referencia: 'MDN. (2021b). Math - JavaScript.',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math',
     },
     {
       referencia:
-        'Piattini M., Calvo-Manzano J., Cervera J., y Fernández, L. (2004). Análisis y diseño de aplicaciones informáticas de gestión. Una perspectiva de ingeniería de software. Alfaomega-Rama.',
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/find',
+    },
+    {
+      referencia: 'MDN. (2021d). Funciones - JavaScript',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Functions',
     },
     {
       referencia:
-        'Sommerville, I. (2011). Ingeniería de software. Pearson Educación.',
+        'MDN. (2021e). Tipos de datos y estructuras en JavaScript - JavaScript.',
+      link: 'https://developer.mozilla.org/es/docs/Web/',
     },
     {
       referencia:
-        'Ventura, M. T. (2002). La ingeniería de requerimientos como factor clave para el éxito de los proyectos de desarrollo de software.',
-      link: 'http://132.248.9.195/ppt2002/0307178/Index.html',
+        'Resnick, M. (2007). Sembrando semillas para una sociedad más creativa.',
+      link: 'https://eduteka.icesi.edu.co/articulos/ScratchResnickCreatividad',
     },
     {
       referencia:
-        'Wessinger, K., (2012) Project Stakeholder Management. Engineering Management Journal, 14(84), 19-24.',
+        'Rojas A., V. y Ñacato C., J. (1980). Técnica de flujogramas I. Editora Andina.',
+    },
+    {
+      referencia: 'Vázquez, J. (2012). Análisis y diseño de algoritmos.',
+    },
+    {
+      referencia: 'Vedia, M. (2018). Cuándo usar Return en JavaScript.',
+      link:
+        'https://medium.com/@mvtercero85/cuando-usar-return-en-javascript-7b80e025eb7f',
     },
   ],
   creditos: [
