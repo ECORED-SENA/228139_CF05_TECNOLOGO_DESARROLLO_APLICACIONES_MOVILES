@@ -18,11 +18,13 @@
 
         p En general, existen tres (3) fases secuenciales para la elaboración de un algoritmo representadas en la siguiente figura y de las cuales se abordarán las dos primeras:
 
-    .titulo-sexto.color-acento-contenido
-      h5 Figura 1
+    //.titulo-sexto.color-acento-contenido
+      h5 Figura 1.
       span Metodología de creación de algoritmos
-    figure
-      img(src='@/assets/curso/temas/img2.svg', alt='Metodología de creación de algoritmos: Análisis, Diseño e Implementación')
+    .row.justify-content-center
+      .col-12.col-lg-10
+        figure
+          img(src='@/assets/curso/temas/img2.svg', alt='Metodología de creación de algoritmos: Análisis, Diseño e Implementación')
 
     Separador
 
@@ -102,11 +104,13 @@
       .py-4.py-md-5(titulo="Diseño" :icono="require('@/assets/curso/temas/img8.svg')")
         p #[span.etiqueta--amarilla #[strong Diseño:]] en anterior análisis se contemplaron los datos de entrada, datos auxiliares (variable) operaciones (impresión en pantalla, lectura de datos e impresión en pantalla de resultados). Pero son muchas las palabras usadas en el análisis por lo tanto lo abreviamos con el siguiente código 	que, posteriormente, se explicará.
 
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 2
-          span Pseudocódigo imprimir un número
-        figure.my-5
-          img(src='@/assets/curso/temas/img9.png', alt='' style='width:600px').m-auto
+        .row.justify-content-center
+          .col-12.col-lg-10.col-xl-9
+            figure.bg-gray.my-4
+              //.titulo-sexto.color-acento-contenido
+                h5 Figura 2.
+                span Pseudocódigo imprimir un número
+              img(src='@/assets/curso/temas/img9.png', alt='' style='width:600px').m-auto
 
 
     p En #[span.etiqueta--morada ALGORITMO] se indica el nombre del algoritmo, y después se declaran las variables que serán usadas en él (con VAR) indicando su tipo de dato (un valor de tipo #[span.etiqueta--morada ENTERO], para este ejemplo)
@@ -115,28 +119,31 @@
 
     p.mb-5 Se debe tener en cuenta que cada línea termina en punto y coma (excepto #[span.etiqueta--morada INICIO] y #[span.etiqueta--morada FIN]), el punto y coma indica que lo que se ejecuta es una sentencia que hace una única operación, mientras que lo que está entre #[span.etiqueta--morada INICIO] y #[span.etiqueta--morada FIN] agrupa varias sentencias que se ejecutan en un orden determinado.
 
-    h3.mb-5 #[i.fas.fa-angle-double-right.txt--color-acento-contenido] Pruebas de escritorio o trazas
+    h3.mb-4 #[i.fas.fa-angle-double-right.txt--color-acento-contenido] Pruebas de escritorio o trazas
 
-    .tarjeta.tarjeta--gris.p-4.p-md-5.mb-5
+    p.mb-4 Las pruebas de escritorio son las simulaciones de ejecución de un algoritmo que permite determinar la validez o efectividad del mismo. Se trata de escribir en una tabla con tantas columnas como variables tiene el algoritmo y seguir las instrucciones poniendo los valores correspondientes.
+
+
+    .tarjeta.tarjeta--gris.p-3.mb-4
       .row.justify-content-around.align-items-center
-        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
-          img(src="@/assets/curso/temas/info.svg")
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/infografia1t1.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              p.mb-0 #[strong Descargue y explore la infografía que se propone a continuación] y amplíe sus conocimientos sobre las pruebas de escritorio o trazas.
+            .col-sm-auto
+              a.boton.color-botones(:href="obtenerLink('/downloads/Infografia_Prueba_de_Escritorio.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
 
-        .col-md.col-lg-6
-          h3 Pruebas de escritorio o trazas
-          p.mb-4 Las pruebas de escritorio son las simulaciones de ejecución de un algoritmo que permite determinar la validez o efectividad del mismo. Se trata de escribir en una tabla con tantas columnas como variables tiene el algoritmo y seguir las instrucciones poniendo los valores correspondientes.
-
-          a.boton.color-acento-contenido(:href="obtenerLink('/downloads/Infografia_Prueba_de_Escritorio.pdf')" target="_blank" type="application/pdf")
-            span Descargar
-            i.fas.fa-file-download
-
-    .cajon.color-acento-botones.p-4.mb-5.mb-lg-0.mx-5.mt-5
+    .cajon.color-acento-botones.p-4.mb-5.mb-lg-0
       .row.align-items-center
         .col-auto
           figure.d-none.d-md-block
             img(src='@/assets/curso/temas/img30.svg', alt='' style='width: 100%')
         .col-md
-          .h5 Ejemplo: escribir un algoritmo que calcule el cuadrado y el cubo de un número introducido por teclado y mostrar los resultados para el cubo y el cuadrado.
+          p #[strong Ejemplo:] escribir un algoritmo que calcule el cuadrado y el cubo de un número introducido por teclado y mostrar los resultados para el cubo y el cuadrado.
 
     TabsB.my-5.color-acento-contenido
       .py-4.py-md-5(titulo="Análisis" :icono ="require ('@/assets/curso/temas/img7.svg')")
@@ -151,19 +158,20 @@
           .col-12.col-lg-8
 
             figure.bg-gray
-              .titulo-sexto.color-acento-contenido
-                h5 Figura 3
+              //.titulo-sexto.color-acento-contenido
+                h5 Figura 3.
                 span Metodología de creación de algoritmos
 
               img(src='@/assets/curso/temas/img11.png', alt='Texto que describa la imagen' style='width:600px').m-auto
 
     p Las pruebas de escritorio permiten verificar que el pseudocódigo realice lo que se espera al resolver el problema. Sin embargo, por ahora es importante que a todos los pseudocódigos se les aplique, al menos, una de prueba de escritorio o las que se consideren necesarias.
+
     p #[strong La mayoría de las pruebas de escritorio se representan en una tabla, donde en cada columna se anotan las variables y condiciones si las hay,] en el   orden en que aparecen en el algoritmo, #[strong para entenderlo se tiene que recorrer línea a línea el pseudocódigo y así identificar tanto las variables  como condiciones] e ir anotándolas en la tabla de la prueba de escritorio.
     p Es importante que en la tabla no aparezcan variables o condiciones repetidas y en la última columna se pueden anotar los datos de salida para  entonces también anotar #[strong “Salida”].
-    p.mb-5 Ejecutando línea a línea el algoritmo de la figura 3 y se va llenando la tabla como muestra la siguiente figura:
+    p.mb-5 Ejecutando, línea a línea, el algoritmo que propone el ejemplo anterior, se va llenando la tabla como se muestra enseguida:
 
     .titulo-sexto.color-acento-contenido
-      h5 Figura 4
+      h5 Figura 1.
       span Tablas de traza del algoritmo
     figure.mb-5
       img(src='@/assets/curso/temas/img12.svg', alt='' style='width:100%').m-auto

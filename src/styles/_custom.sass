@@ -34,6 +34,9 @@
         border-radius: 10px
         flex-grow: 1
 
+.tarjeta--crema
+  background: #FEE8C8
+
 .tarjeta--amarilla
   min-height: 0  !important
   background-color: #4DD0E1
@@ -71,12 +74,10 @@
 .imagen-texto
     display: flex
 
-figure, p
-  display: inline-block
 .cajon--azul2
-    background-color: #DBF6F9
-    &::before
-      background-color: #4DD0E1  !important
+  background-color: #DBF6F9
+  &::before
+    background-color: #4DD0E1  !important
 .contenedor-tarjetas
   flex-wrap: wrap
   display: flex
@@ -148,7 +149,7 @@ hr
     color: #00104E
     font-weight: 800
 .tajeta-amarilla
-    background-color: #FFF6DB
+  background-color: #FFF6DB
 .cajon--azul
   background-color: #FFF6DB
 .cajon--azul::before
@@ -195,3 +196,16 @@ hr
 figure.bg-gray
   background: $color-sistema-g
   padding: 16px
+
+.lista-ol--separador li,
+.lista-ul--separador li
+  padding-bottom: 15px
+  margin-bottom: 15px
+  border-bottom: solid 1px $color-sistema-f
+
+.contenedor-listas
+  max-width: 800px !important
+
+.hr
+  border: 0px
+  border-bottom: solid 1px $color-sistema-f
