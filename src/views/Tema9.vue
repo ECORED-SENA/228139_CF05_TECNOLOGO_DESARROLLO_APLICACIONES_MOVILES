@@ -20,9 +20,12 @@
           img(src='@/assets/curso/temas8-13/img3.svg', alt='')
 
 
-    .tabla-a.my-5
+    .titulo-sexto.color-acento-botones
+      h5 Tabla 3.
+      span Entornos de codificación
+
+    .tabla-a.mb-5
       table
-        caption Tabla 2 - Entornos de codificación.
         thead.header1
           tr
             th Herramienta

@@ -270,6 +270,69 @@ export default {
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=encz3h8TLWA',
     },
+    {
+      tema: '9. Entornos de codificación e instalación',
+      referencia:
+        'Framebits. (19 de enero de 2020). Descargar e instalar Node Js en Windows 10. [Video].',
+      tipo: 'Video',
+      link: 'https://youtu.be/v0x1Ku5Tgac',
+    },
+    {
+      tema: '9. Entornos de codificación e instalación',
+      referencia:
+        'Code Compadre. (30 de junio de 2020). How to Download and Install Visual Studio Code for Windows 10. [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://youtu.be/KpzkPlh_HsU',
+    },
+    {
+      tema: '9. Entornos de codificación e instalación',
+      referencia:
+        'VideoMarketingViral. (11 de enero de 2020). Descargar Google Chrome para PC 2021 (WINDOWS 7/8/10). [Video] YouTube. ',
+      tipo: 'Video',
+      link: 'https://youtu.be/V-M2rMBhgKc',
+    },
+    {
+      tema: '10. Sintaxis del lenguaje JavaScript',
+      referencia: 'MDN. (2021). Array – JavaScript. ',
+      tipo: 'Documentación técnica',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math ',
+    },
+    {
+      tema: '10. Sintaxis del lenguaje JavaScript',
+      referencia: 'MDN. (2021). Expresiones y operadores – JavaScript. ',
+      tipo: 'Documentación técnica',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators ',
+    },
+    {
+      tema: '10. Sintaxis del lenguaje JavaScript',
+      referencia: 'MDN. (2021). Funciones – JavaScript. ',
+      tipo: 'Documentación técnica',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Functions ',
+    },
+    {
+      tema: '10. Sintaxis del lenguaje JavaScript',
+      referencia: 'MDN. (2021). Array.prototype.find() – JavaScript.',
+      tipo: 'Documentación técnica',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/find ',
+    },
+    {
+      tema: '10. Sintaxis del lenguaje JavaScript',
+      referencia:
+        'Choque, R. C. (10 de mayo de 2020). Cómo usar la consola de Google Chrome para JavaScript. [Video] YouTube',
+      tipo: 'Video',
+      link: 'https://youtu.be/Hf3n-p3VYx4 ',
+    },
+    {
+      tema: '10. Sintaxis del lenguaje JavaScript',
+      referencia:
+        'Autodidacta, F. (11 de mayo de 2017). Depurar o hacer debug a JavaScript con Google Chrome. [Video] YouTube. ',
+      tipo: 'Video',
+      link: 'https://youtu.be/I388w3wDkjc ',
+    },
   ],
   glosario: [
     {
@@ -442,7 +505,13 @@ export default {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo: 'Metodólogo para formación virtual',
           centro:
-            'Centro para la industria de la comunicación gráfica - Regional Distrito Capital',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseñador Instruccional',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -468,20 +537,14 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Blanca Flor Tinoco Torres',
+          nombre: 'Yerson Fabian Zarate Saavedra',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Andrea Paola Botello De la Rosa',
+          nombre: 'Francisco José Lizcano Reyes',
           cargo: 'Desarrollador Full-stack',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: ' ',
-          cargo: 'Actividad didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

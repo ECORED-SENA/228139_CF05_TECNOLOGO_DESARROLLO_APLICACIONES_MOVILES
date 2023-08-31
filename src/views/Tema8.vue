@@ -7,7 +7,7 @@
         span 8
       h1 Conceptos básicos de programación.
 
-    .row
+    .row.mb-5
       .col-lg-5
         figure
           img(src='@/assets/curso/temas8-13/img1.svg', alt='')
@@ -16,9 +16,12 @@
         p Existen centenares de lenguajes de programación, muchos de ellos fueron creados para dar respuesta a problemas particulares o máquinas específicas. No es de interés ahora discutir todos los tipos de lenguajes existentes, sino, más bien, conocer aquellos que pueden ser interpretados por computadores, smartphones o que pueden ser empleados para proveer servicios informáticos a través de internet y su clasificación más general.
         p Un lenguaje de programación es diferente al lenguaje de códigos que puede entender la máquina (lenguaje de máquina). Los lenguajes de programación, pueden dividirse en dos categorías: lenguajes interpretados o lenguajes compilados, a saber:
 
-    .tabla-a.my-5
+    .titulo-sexto.color-acento-botones
+      h5 Tabla 2.
+      span Lenguajes de programación
+
+    .tabla-a.mb-5
       table
-        caption Tabla 1- Lenguajes de programación
         thead.header1
           tr
             th Compilado
@@ -48,10 +51,7 @@
             td Los lenguajes compilados están optimizados para el momento de la ejecución, pero esto significa más trabajo para el programador (compilarlo).
             td El código fuente en un lenguaje interpretado está optimizado para hacerle la vida más fácil al programador, aunque esto signifique una carga adicional de procesamiento para la máquina.
     p JavaScript, al igual que cualquier otro lenguaje de programación, tiene algunas características especiales: sintaxis, modelo de datos, etc. JavaScript es un lenguaje esencial para cualquier principiante de programación y también para quienes ya saben programar, debido a que las diferencias con otros lenguajes de programación son numerosas siendo un lenguaje necesario para el desarrollo de aplicaciones web y móviles hoy en día.
-      br
-      br
-      |En adelante, JavaScript es el lenguaje de programación abordado y es un lenguaje interpretado que inicialmente fue creado para que los navegadores lo interpreten y hoy en día muchos dispositivos tienen el intérprete que permite correr programas escritos en él
-      b por lo que será más sencillo el trabajo tanto para la máquina como para el programador.
+    p En adelante, JavaScript es el lenguaje de programación abordado y es un lenguaje interpretado que inicialmente fue creado para que los navegadores lo interpreten y hoy en día muchos dispositivos tienen el intérprete que permite correr programas escritos en él #[strong por lo que será más sencillo el trabajo tanto para la máquina como para el programador].
 
 
 
