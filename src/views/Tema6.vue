@@ -14,7 +14,7 @@
 
     #t_6_1
     .titulo-segundo.color-acento-contenido
-      .h2 6.1.  Vectores
+      .h2 6.1  Vectores
 
     p Los arreglos o #[em array], en inglés, (matriz, arreglo o vector) se definen como un conjunto finito y ordenado de elementos del mismo tipo. La propiedad “ordenado” quiere decir que el elemento primero, segundo, tercero, …, enésimo de un #[em array] puede ser identificado y accedido. Cuando se dice que los elementos de un arreglo son homogéneos, significa que son del mismo tipo de datos. Un arreglo puede estar compuesto de todos sus elementos de tipo letras, otro puede tener todos sus elementos de tipo entero, etc. Los arreglos se conocen como matrices en matemáticas, y tablas en temas financieros (Vázquez, 2012).
     p Según sus dimensiones, los arreglos se clasifican en:
@@ -50,9 +50,9 @@
       img(src='@/assets/curso/temas/img55.svg', alt='' ).m-auto
 
 
-    p Cada vector está compuesto de un número de elementos ya definidos, esto hace que sea una estructura estática (no puede aumentarse ni reducirse). Cada elemento está referenciado por la posición que ocupa dentro del vector. Estas posiciones son llamadas índices; nótese que empieza a contar desde 0 como muestra la figura 15.
+    p Cada vector está compuesto de un número de elementos ya definidos, esto hace que sea una estructura estática (no puede aumentarse ni reducirse). Cada elemento está referenciado por la posición que ocupa dentro del vector. Estas posiciones son llamadas índices; nótese que empieza a contar desde 0.
 
-    p Para referirse un vector se usa un identificador como se hace con las variables o constantes, pero queda entre corchetes [ ], por ejemplo si el vector se llama lista, y se quiere acceder al quinto elemento del vector de la figura 17, se debe hacer así lista[4], es de notar que la quinta posición se accede con el índice 4, porque se empezó a contar desde 0.
+    p Para referirse un vector se usa un identificador como se hace con las variables o constantes, pero queda entre corchetes [ ], por ejemplo si el vector se llama lista, y se quiere acceder al quinto elemento del vector, se debe hacer así lista[4], es de notar que la quinta posición se accede con el índice 4, porque se empezó a contar desde 0.
 
     p.mb-5 Para realizar las operaciones de asignación, lectura/escritura sobre un vector, se recomienda usar las estructuras repetitivas para, a través de ellas, manipular los índices correspondientes a las posiciones del arreglo.
 
@@ -93,14 +93,14 @@
         .row.justify-content-center
           .col-lg-5
             figure.my-5
-              img(src='@/assets/curso/temas/img56.svg', alt='' )
+              img(src='@/assets/curso/temas/img56.svg', alt='Imagen que muestra la estructura del algoritmo del ejemplo propuesto y el algoritmo mismo.' )
           .col-lg-5
             figure.my-5
-              img(src='@/assets/curso/temas/img57.svg', alt='' )
+              img(src='@/assets/curso/temas/img57.svg', alt='Imagen que muestra la estructura del algoritmo del ejemplo propuesto y el algoritmo mismo.' )
 
     #t_6_2
     .titulo-segundo.color-acento-contenido
-      .h2 6.2. Matrices
+      .h2 6.2 Matrices
 
     p.mb-5 Las matrices son arreglos de más de una dimensión, en la siguiente figura se presenta un ejemplo de una matriz de 2 dimensiones que son 4x5 (correspondiente a 4 columnas y 5 filas).
 

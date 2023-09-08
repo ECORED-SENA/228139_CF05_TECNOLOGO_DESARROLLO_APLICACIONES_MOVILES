@@ -22,15 +22,16 @@
       h5 Figura 1.
       span Metodología de creación de algoritmos
     .row.justify-content-center
-      .col-12.col-lg-10
-        figure
-          img(src='@/assets/curso/temas/img2.svg', alt='Metodología de creación de algoritmos: Análisis, Diseño e Implementación')
-
+      .col-12.col-xl-10
+        figure.d-none.d-lg-block
+          img(src='@/assets/curso/temas/img2.svg', alt='Imagen de tarjetas que enuncian las tres fases para la elaboración de un algoritmo: Análisis, diseño e implementación.')
+        figure.d-lg-none
+          img(src='@/assets/curso/temas/img2b.svg', alt='Imagen de tarjetas que enuncian las tres fases para la elaboración de un algoritmo: Análisis, diseño e implementación.', style="max-width: 328px").m-auto
     Separador
 
     #t_1_1
     .titulo-segundo.color-acento-contenido
-      .h2 1.1. Análisis
+      .h2 1.1 Análisis
 
     .row.mb-5
       .col-auto
@@ -57,7 +58,7 @@
 
     #t_1_2
     .titulo-segundo.color-acento-contenido
-      .h2 1.2. Diseño
+      .h2 1.2 Diseño
 
     .row.mb-4
       .col-auto
@@ -68,7 +69,30 @@
 
     p En el proceso de desarrollo del algoritmo, las siguientes actividades son obligatorias, sobre todo si se está empezado en el diseño de soluciones basadas en algoritmos y no se cuenta con mucha experiencia:
 
-    figure.my-5
+    .row.justify-content-center.my-5
+      .col-xl-5
+        .row.align-items-center
+          .col-auto
+            figure
+              img(src='@/assets/curso/temas/t1icon1.svg', alt='').m-auto
+          .col
+            span #[strong Definir las partes del algoritmo]
+        hr
+        .row.align-items-center
+          .col-auto
+            figure
+              img(src='@/assets/curso/temas/t1icon2.svg', alt='').m-auto
+          .col
+            span #[strong Pasos para el desarrollo del algoritmo]
+        hr
+        .row.align-items-center
+          .col-auto
+            figure
+              img(src='@/assets/curso/temas/t1icon3.svg', alt='').m-auto
+          .col
+            span.mb-0 #[strong La representación del algoritmo (notación, diagrama o seudocódigo)]
+
+    //figure.my-5
       img(src='@/assets/curso/temas/img5.svg', alt='' style='max-width: 496px').m-auto
 
     p Para la verificación del algoritmo, se aplica una técnica denominada #[span.etiqueta--morada #[strong pruebas de escritorio o trazas, que trata de la validación y verificación del algoritmo mediante la ejecución de las sentencias u operaciones que lo componen (proceso),]] y así determinar sus resultados de salida a partir de una base determinada de elementos en la entrada del proceso.
@@ -79,7 +103,7 @@
     .row.mb-4
       .col-lg-4
         figure
-          img(src='@/assets/curso/temas/img6.jpg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/img6.jpg', alt='')
       .col-lg-8
         p.mb-5 Para expresar el contenido de un programa de computadora, se necesita de un lenguaje de programación que las computadoras pueden interpretar. Sin embargo, se puede expresar ese mismo contenido en el lenguaje natural lengua materna (español), empleando expresiones sencillas que lo simplifican y abrevian. Cuando se emplea esta técnica, se dice que está escrito en pseudocódigo.
 
@@ -87,7 +111,7 @@
           .row.align-items-center
             .col-auto
               figure.d-none.d-md-block
-                img(src='@/assets/curso/temas/img30.svg', alt='Texto que describa la imagen' style='width: 100%')
+                img(src='@/assets/curso/temas/img30.svg', alt='' style='width: 100%')
             .col-md
               p.mb-0 #[strong Ejemplo: el cliente pide que se desarrolle un programa de computadora que le solicite al usuario un número, luego el sistema debe mostrar en pantalla el número digitado.]
 
@@ -162,7 +186,7 @@
                 h5 Figura 3.
                 span Metodología de creación de algoritmos
 
-              img(src='@/assets/curso/temas/img11.png', alt='Texto que describa la imagen' style='width:600px').m-auto
+              img(src='@/assets/curso/temas/img11.png', alt='' style='width:600px').m-auto
 
     p Las pruebas de escritorio permiten verificar que el pseudocódigo realice lo que se espera al resolver el problema. Sin embargo, por ahora es importante que a todos los pseudocódigos se les aplique, al menos, una de prueba de escritorio o las que se consideren necesarias.
 
@@ -174,7 +198,7 @@
       h5 Figura 1.
       span Tablas de traza del algoritmo
     figure.mb-5
-      img(src='@/assets/curso/temas/img12.svg', alt='' style='width:100%').m-auto
+      img(src='@/assets/curso/temas/img12.svg', alt='Imagen de las tablas de traza del algoritmos con sus respectivos campos de diligenciamiento: número, cuadrado, cubo, salida.' style='width:100%').m-auto
 
     p También es posible realizar pruebas de escritorio a otras representaciones de algoritmos, como los diagramas de flujo, expuestos a continuación, y que se representan con algoritmos recomendando que a cada ejemplo presentado se le realice la prueba de escritorio correspondiente.
 

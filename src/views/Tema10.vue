@@ -31,7 +31,7 @@
           span Operaciones aritméticas con Javascript
 
         figure
-          img(src='@/assets/curso/temas8-13/img5.jpg', alt='' style='width: 427px').m-auto
+          img(src='@/assets/curso/temas8-13/img5.jpg', alt='Imagen que muestra la el código para la función solicitada, las operaciones aritméticas con javascript y sus respectivos resultados en la consola' style='width: 427px').m-auto
 
     .tarjeta-azul.mb-5
       .row.p-5
@@ -96,7 +96,7 @@
 
     #t_10_2
     .titulo-segundo.color-acento-contenido
-      .h2 10.2. Tipos de datos, operadores y orden de evaluación
+      .h2 10.2 Tipos de datos, operadores y orden de evaluación
 
     p.mb-5 Existen muchos tipos de operadores para JavaScript, cuya función es realizar una operación entre dos o más valores contenidos en variables, constantes o acumuladores:
 
@@ -419,23 +419,25 @@
 
     #t_10_3
     .titulo-segundo.color-acento-contenido
-      .h2 10.3. Expresiones y comentarios.
+      .h2 10.3 Expresiones y comentarios.
 
-    p JavaScript permite poner comentarios en el código fuente, como la mayoría de los lenguajes de programación y existen dos tipos de comentarios en línea que comienzan con una doble barra: //, y los comentarios multilínea, que comienzan con /* y terminan con */ tal como se observa en la siguiente figura.
+    p.mb-5 JavaScript permite poner comentarios en el código fuente, como la mayoría de los lenguajes de programación y existen dos tipos de comentarios en línea que comienzan con una doble barra: //, y los comentarios multilínea, que comienzan con /* y terminan con */ tal como se observa en la siguiente figura.
 
-    .titulo-sexto.color-acento-contenido
-      h5 Figura 12.
-      span Tipos de comentarios
+    .row.justify-content-center.mb-5
+      .col-12.col-lg-6
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 12.
+          span Tipos de comentarios
 
-    figure.mb-5
-      img(src='@/assets/curso/temas8-13/img19.jpg', alt='' style="width:660px").m-auto
+        figure.mb-5
+          img(src='@/assets/curso/temas8-13/img19.jpg', alt='Imagen de código fuente donde se han ingresado comentarios en línea; en este caso los comentarios comienzan con doble barra inclinada.' style="width:660px").m-auto
 
     p Los comentarios son importantes porque le dan mantenibilidad al programa, es decir que otro programador, o el mismo, tiempo después puede revisar el código y apoyarse en los comentarios para saber qué hace el algoritmo y como lo hace.
     p.mb-5 En adelante se procura que exista al menos un comentario en cada código fuente empleado para ejemplificar los elementos constitutivos del lenguaje de programación JavaScript y puede hacer lo mismo durante la creación de los diferentes códigos.
 
     #t_10_4
     .titulo-segundo.color-acento-contenido
-      .h2 10.4. Estructuras de selección
+      .h2 10.4 Estructuras de selección
 
     p.mb-5 La estructura de selección se necesita cuando el código de tu programa ejecuta uno de varios resultados posibles, basado en el valor de una condición.
 
@@ -522,7 +524,7 @@
           span Escribir en pantalla si es o no mayor de edad
 
         figure
-          img(src='@/assets/curso/temas8-13/img22.jpg', alt='').m-auto
+          img(src='@/assets/curso/temas8-13/img22.jpg', alt='Imagen que muestra el algoritmo de ser o no mayor de edad, según el ejemplo propuesto.').m-auto
 
       .col-lg-6
         p.mb-3 De acuerdo con la figura 14, no existe un contexto si no se cumple la condición de mayoría de edad a esta estructura se denomina #[strong CONDICIONAL SIMPLE].
@@ -531,12 +533,12 @@
 
     #t_10_5
     .titulo-segundo.color-acento-contenido
-      .h2 10.5. Estructuras de repetición
+      .h2 10.5 Estructuras de repetición
 
-    p.mb-5 Las estructuras de repetición permiten repetir un bloque de instrucciones, determinado o no, un número de veces. A continuación, se ejemplifican los más comunes (FOR, WHILE) que se pueden codificar también en la sintaxis de JavaScript.
+    p.mb-5 Las estructuras de repetición permiten repetir un bloque de instrucciones, determinado o no, un número de veces. A continuación, se ejemplifican los más comunes (#[code FOR], #[code WHILE]) que se pueden codificar también en la sintaxis de JavaScript.
 
     h4.mb-5
-      span.span-amarillo.h4.ps-4.pe-4.py-2.mb-55 A. Estructura de repetición FOR
+      span.span-amarillo.h4.ps-4.pe-4.py-2.mb-55 A. Estructura de repetición #[code FOR]
 
     .cajon--azul.p-4.mb-5
       .row.align-items-center
@@ -589,13 +591,13 @@
         p Como se puede ver, se decide una constante con valor 5, y una variable que será para el algoritmo un acumulador donde se almacenarán las sumas. También, note que los valores de #[code.etiqueta i] van desde 1 hasta exactamente el valor que tiene la constante (es decir 5).
 
     h4.mb-5
-      span.span-amarillo.h4.ps-4.pe-4.py-2.mb-5 B. Estructura de repetición WHILE
+      span.span-amarillo.h4.ps-4.pe-4.py-2.mb-5 B. Estructura de repetición #[code WHILE]
 
     p.mt-3.mb-5 A través del ejemplo del cálculo de factorial se explicará el uso y comportamiento de la sentencia while. Recordando el algoritmo diseñado:
 
     .tarjeta-azul2.p-5.mb-5
       figure
-        img(src='@/assets/curso/temas8-13/img25.svg', alt='' style="width: 360px")
+        img(src='@/assets/curso/temas8-13/img25.svg', alt='Imagen del algoritmo de cálculo de factorial con el que se explicará el uso y comportamiento de la sentencia while.' style="width: 360px")
 
     p.mb-5 De acuerdo con el anterior algoritmo, el resultante para el cálculo de factorial es:
 
@@ -616,7 +618,7 @@
 
     #t_10_6
     .titulo-segundo.color-acento-contenido
-      .h2 10.6. Estructuras de datos
+      .h2 10.6 Estructuras de datos
 
     p.mb-5 Las estructuras de datos también conocidas como arreglos, son importantes en el desarrollo de algunos algoritmos son obligatorias a la hora de hacer aplicaciones web o móviles; por ello, se explica su sintaxis en JavaScript para los vectores, matrices y registros.
 
@@ -662,7 +664,7 @@
           h5 Figura 20.
           span Crear la tabla del 5.
         figure.mb-5
-          img(src='@/assets/curso/temas8-13/img28.jpg', alt='' ).m-auto
+          img(src='@/assets/curso/temas8-13/img28.jpg', alt='Imagen que muestra el código para la creación de un programa que guarde los resultados de la tabla de 5 en un vector.' ).m-auto
 
     p.mb-5 Es ideal revisar la lista de los métodos más comunes en los arreglos:
 
@@ -710,10 +712,10 @@
 
     .titulo-sexto.color-acento-contenido
       h5 Figura 21.
-      span Matriz de 3x3
+      span Matriz de 3x4
 
     figure.mb-5
-      img(src='@/assets/curso/temas8-13/img29.svg', alt='' ).m-auto
+      img(src='@/assets/curso/temas8-13/img29.svg', alt='Ejemplo de código para la creación de una matriz de 3x4 donde los valores de cada posición son nombres de frutas.' ).m-auto
 
     h4.mb-5
       span.span-amarillo.h4.ps-4.pe-4.py-2.mb-5 C. Registros
@@ -762,12 +764,12 @@
 
     #t_10_7
     .titulo-segundo.color-acento-contenido
-      .h2 10.7. Estructuras de salto
+      .h2 10.7 Estructuras de salto
 
     p.mb-5 Estas estructuras son instrucciones que permiten romper la ejecución natural o secuencial de los programas, permitiendo que se salte a otro punto de la ejecución del programa, estas instrucciones tienen las palabras reservadas: #[code.etiqueta continue], #[code.etiqueta break] y #[code.etiqueta return]:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-      div(titulo="Sentencia continue").p-4
+      div(titulo="Sentencia <code>continue</code>").p-4
         p.mb-5 La sentencia continue se salta a la siguiente iteración del ciclo for o while como se presenta en el siguiente ejemplo y teniendo en cuenta los resultados.
 
         figure.mb-5
@@ -775,15 +777,15 @@
 
         p Como se observa, cuando la variable i tiene el valor 3, se ejecuta la sentencia continue se salta la sentencia donde debe imprimir el valor de 3, por ese motivo no aparece en la consola.
 
-      div(titulo="Sentencia break").p-4
+      div(titulo="Sentencia <code>break</code>").p-4
         p.mb-5 Por otro lado, la sentencia break, detiene la ejecución del ciclo independientemente de cuántas veces este configurando el ciclo.
 
         figure.mb-5
-          img(src='@/assets/curso/temas8-13/img34.jpg', alt='')
+          img(src='@/assets/curso/temas8-13/img34.jpg', alt='Imagen que muestra código con uso de sentencia break.')
 
         p En la anterior imagen, cuando i tiene el valor de 3 ya no se sigue ejecutando más el ciclo, aunque esté programado para ejecutarse 5 veces, solo ejecuta 3 iteraciones y, ya que en el tercero luego de evaluar la condición #[code.etiqueta i == 3] ejecuta la sentencia #[code.etiqueta break] haciendo que termine todo.
 
-      div(titulo="Sentencia return").p-4
+      div(titulo="Sentencia <code>return</code>").p-4
         p Sirve para terminar la ejecución de un bloque de instrucciones, se usa mucho en programación modular cuando se quiere retornar un resultado, se usará más adelante.
         p.mb-5 Por ejemplo, se tiene una función que divide un número entre 4 y se ha creado para obtener resultados. En el primer caso se le pasa 27 para que lo divida entre 4 pero como no hay return dentro, devuelve #[code.etiqueta undefined]. No accede al número porque el número solo vive dentro de la función y no hay nada que dé el valor. Si se le agrega return, efectivamente se obtiene el resultado de la división.
         figure
@@ -795,11 +797,11 @@
       .h2 10.8 Métodos de ordenamiento y búsqueda
 
     .row.mb-5.align-items-center
-      .col-lg-2
+      .col-auto.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas8-13/img36.svg', alt='')
 
-      .col-lg-10
+      .col
         p.mb-0 Existen varias técnicas de ordenamiento de vectores las cuales son importantes para realizar búsquedas y, al igual que en la vida real, es más fácil buscar en un lugar que esté ordenado que en uno que no lo esté, como #[strong JavaScript está diseñado para pequeños algoritmos que resuelven pequeños problemas y convertirlos en servicios], el uso de esas técnicas no tiene mucha aplicabilidad, pues la diferencia en tiempos computacionales de ejecución es considerable solo cuando se manejan volúmenes de datos grandes, mientras que para volúmenes de datos cortos o pequeños los tiempos computacionales no tienen diferencias comparables. Es por eso que, si en #[strong JavaScript] el volumen de datos en los arreglos no será grande, no es necesario la aplicación de esas técnicas.
 
     h4.mb-5
@@ -813,7 +815,7 @@
           span Ordenamiento de números como cadenas de texto
 
         figure.mb-sm-3
-          img(src='@/assets/curso/temas8-13/img37.jpg', alt='').m-auto
+          img(src='@/assets/curso/temas8-13/img37.jpg', alt='Imagen de código para el ordenamiento de números como cadenas de texto.').m-auto
 
       .col-lg-6
         p.mt-5 Se ordenará un vector de mayor a menor valor y de acuerdo con los datos que tiene, se debe tener en cuenta que el arreglo se modifica al ordenarlo, devolviendo la misma matriz ordenada, pero no una nueva. Esto es importante, si se quiere mantener inmutable el vector y obtener otro ordenado, lo que se tendría que hacer es una copia del arreglo antes de ordenarlo.
@@ -826,7 +828,7 @@
           span Ordenamiento de cadenas de texto
 
         figure.mb-sm-3
-          img(src='@/assets/curso/temas8-13/img38.jpg', alt='').m-auto
+          img(src='@/assets/curso/temas8-13/img38.jpg', alt='Imagen de código para el ordenamiento de cadenas de texto de forma ascendente.').m-auto
 
 
       .col-lg-6
@@ -839,7 +841,7 @@
           h5 Figura 24.
           span Invertir el orden de los elementos
         figure.mb-sm-3
-          img(src='@/assets/curso/temas8-13/img39.jpg', alt='').m-auto
+          img(src='@/assets/curso/temas8-13/img39.jpg', alt='Imagen de código para el ordenamiento de cadenas de texto de forma descendente.').m-auto
 
       .col-lg-6
         p.mt-5 También es posible ordenar el arreglo de forma descendente con el método #[code.etiqueta Array.reverse()].

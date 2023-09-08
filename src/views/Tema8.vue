@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 8
-      h1 Conceptos básicos de programación.
+      h1 Conceptos básicos de programación
 
     .row.mb-5
       .col-lg-5

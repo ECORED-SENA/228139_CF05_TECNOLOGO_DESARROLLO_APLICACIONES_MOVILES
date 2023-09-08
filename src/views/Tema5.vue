@@ -10,15 +10,19 @@
     p Una estructura es definida como un esquema con determinada distribución y orden que permite representar una idea de forma simplificada. La estructura de control secuencial es la más sencilla y es conocida como estructura lineal. Se compone de instrucciones que deben ejecutarse en forma consecutiva, una tras otra, siguiendo una línea de flujo. Los problemas más sencillos pueden resolverse haciendo uso únicamente de esta estructura. Por lo general, la estructura secuencial forma parte de soluciones a problemas complejos, en las que se la utilizan otras estructuras iterativas (repetir varias veces un conjunto de instrucciones) y condicionales (López, 2009).
     p.mb-5 La siguiente figura muestra la estructura general del algoritmo más básico.
 
-    .titulo-sexto.color-acento-contenido
-      h5 Figura 5.
-      span Modelo de estructura secuencial
-    figure.mb-5
-      img(src='@/assets/curso/temas/img36.svg', alt='Modelo de estructura secuencial', style="max-width: 600px").m-auto
+    .row.justify-content-center
+      .col-xl-6
+        .row
+          .col
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 5.
+              span Modelo de estructura secuencial
+            figure.mb-5
+              img(src='@/assets/curso/temas/img36.svg', alt='Imagen de la estructura de algoritmo básico, de estructura secuencial: Inicio, leer datos, procesos, mostrar resultados, final.', style="max-width: 600px").m-auto
 
     #t_5_1
     .titulo-segundo.color-acento-contenido
-      .h2 5.1. Ejemplo estructura de control secuencial
+      .h2 5.1 Ejemplo estructura de control secuencial
 
     p Escribir un algoritmo para calcular el área de cualquier triángulo rectángulo, en él se debe pedir al usuario que ingrese los valores de la altura y la base del triángulo
 
@@ -50,13 +54,13 @@
               img(src='@/assets/curso/temas/img37.svg', alt='Imagen que muestra la estructura del algoritmo del área del triángulo del ejemplo.' )
           .col-lg-5
             figure.my-5
-              img(src='@/assets/curso/temas/img38.svg', alt='' )
+              img(src='@/assets/curso/temas/img38.svg', alt='Imagen que muestra la estructura del algoritmo del área del triángulo del ejemplo.' )
 
     p.mb-5 Del diagrama de flujo y el pseudocódigo se puede notar lo siguiente: el identificador de área no tiene tilde por la razón antes mencionada, el tipo de dato REAL hace referencia a que es un número que no solamente puede contener un número entero, sino también un valor con cifras decimales.
 
     #t_5_2
     .titulo-segundo.color-acento-contenido
-      .h2 5.2. Estructura condicional
+      .h2 5.2 Estructura condicional
 
     .row.mb-5
       .col-lg-3
@@ -99,10 +103,10 @@
         .row.justify-content-center
           .col-lg-5
             figure.my-5
-              img(src='@/assets/curso/temas/img40.svg', alt='' )
+              img(src='@/assets/curso/temas/img40.svg', alt='Imagen de la estructura condicional, del ejemplo del aprendiz que aprueba según su calificación igual o mayor a tres.' )
           .col-lg-5
             figure.my-5
-              img(src='@/assets/curso/temas/img41.svg', alt='' )
+              img(src='@/assets/curso/temas/img41.svg', alt='Imagen de la estructura condicional, del ejemplo del aprendiz que aprueba según su calificación igual o mayor a tres.' )
 
     p En el ejemplo anterior, se introduce la calificación por teclado, tanto en el diagrama de flujo (con la representación de trapecio) o el pseudocódigo con la preposición #[strong LEER], luego este valor se compara en un condicional, en el diagrama de flujo con la representación de un rombo, mientras que en el pseudocódigo se una la preposición SI, seguido de las preposiciones que se han de ejecutar en caso de que la condición sea verdadera (note que está escrita más a la derecha). También se usa la preposición #[strong SI NO] para identificar el inicio de bloque de instrucciones a ejecutar si no se cumple la condición y la preposición #[strong FINSI] para indicar que no hay más intrusiones que ejecutar si se cumple o no la condición.
     p.mb-5 Como la condición evalúa dos condiciones si se cumple o no, y en cada caso existe un bloque de instrucciones (o alimenta una instrucción) a seguir se llama: #[strong ESTRUCTURA CONDICIONAL SIMPLE], ya que si la condición se cumple escribe algo y si no se cumple también hace otra operación.
@@ -111,7 +115,7 @@
       .row.align-items-center
         .col-auto
           figure.d-none.d-xl-block.d-xxl-block
-            img(src='@/assets/curso/temas/img30.svg', alt='Texto que describa la imagen' style='width: 100%')
+            img(src='@/assets/curso/temas/img30.svg', alt='' style='width: 100%')
         .col
           p #[strong Ejemplo:] escribir un algoritmo en donde se pida la edad del usuario; si es mayor de edad debe aparecer un mensaje indicándolo.
 
@@ -141,19 +145,19 @@
               img(src='@/assets/curso/temas/img43.svg', alt='Imagen de la estructura del algoritmo del ejemplo propuesto.' )
           .col-lg-5
             figure
-              img(src='@/assets/curso/temas/img44.svg', alt='' )
+              img(src='@/assets/curso/temas/img44.svg', alt='Imagen de la estructura del algoritmo del ejemplo propuesto.' )
 
     p.mb-5 En este ejemplo concreto,, no se ejecuta nada en caso de que NO se cumpla la condición. Este tipo de estructura condicional se denomina #[strong ESTRUCTURA CONDICIONAL SIMPLE]; además, todo el proceso #[i (pedir la edad, comprobar la condición, mostrar o no el mensaje)] se realiza una única vez y finaliza la ejecución del algoritmo, si se deseara que el programa repitiera estas mismas operaciones más de una vez, se tendría que usar una estructura de iteración como se verá a continuación.
 
 
     #t_5_3
     .titulo-segundo.color-acento-contenido.mb-5
-      .h2 5.3. Estructuras de iteración o repetitivas
+      .h2 5.3 Estructuras de iteración o repetitivas
 
     .row.my-5
       .col-lg-4
         figure
-          img(src='@/assets/curso/temas/img42.jpg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/img42.jpg', alt='')
       .col-lg-8
         p Las estructuras iterativas o de repetición permiten ejecutar una o varias instrucciones, un número determinado de veces o indefinidamente hasta que se cumpla una condición. Esta estructura ayuda a simplificar los algoritmos.
         p En programación existen, como mínimo, dos tipos de estructuras repetitivas las cuales tienen variantes en los diferentes lenguajes de programación.
@@ -206,7 +210,7 @@
               img(src='@/assets/curso/temas/img45.svg', alt='Imagen de la estructura del algoritmo del ejemplo propuesto.' )
           .col-lg-6
             figure.my-5
-              img(src='@/assets/curso/temas/img46.svg', alt='' )
+              img(src='@/assets/curso/temas/img46.svg', alt='Imagen de la estructura del algoritmo del ejemplo propuesto.' )
 
 
     .row
@@ -271,12 +275,12 @@
               img(src='@/assets/curso/temas/img47.svg', alt='Imagen que muestra la estructura del algoritmo, al solicitar un número entero y la suma de los números naturales antes de él.' )
           .col-lg-5
             figure
-              img(src='@/assets/curso/temas/img48.svg', alt='')
+              img(src='@/assets/curso/temas/img48.svg', alt='Imagen que muestra la estructura del algoritmo, al solicitar un número entero y la suma de los números naturales antes de él.')
 
 
     p.mb-5 En la anterior figura se muestra el algoritmo en sus dos representaciones más comunes, se propone en secciones posteriores hacer una prueba de escritorio a este problema.
 
-    h3.mb-4 #[i.fas.fa-angle-double-right.txt--color-acento-contenido] Estructura MIENTRAS (WHILE)
+    h3.mb-4 #[i.fas.fa-angle-double-right.txt--color-acento-contenido] Estructura MIENTRAS (#[i WHILE])
 
     p.mb-4 La instrucción "Mientras", puede impedir la ejecución de un conjunto de instrucciones, si la evaluación de una condición lógica es falsa. Esto significa que es repetitiva únicamente cuando la evaluación de la condición es verdadera.
 
@@ -301,7 +305,7 @@
       h5 Figura 6.
       span Proceso de factorial
     figure
-      img(src='@/assets/curso/temas/img49.svg', alt='Proceso de factorial' )
+      img(src='@/assets/curso/temas/img49.svg', alt='Imagen que muestra el proceso de factorial del ejemplo propuesto: contador que va desde 1 hasta el número digitado por el usuario.' )
 
     p.my-5 En la anterior figura se observa que es preciso ir incrementando el valor en 1 (valor constante - contador -) hasta que llegue al número 5 (datos suministrados por el usuario); es decir, 1*2 = 2, este resultado se multiplica por 3 (2 * 3 = 6), 6 se multiplica por 4 (6 * 4 = 24), finalmente también 24 se multiplica por 5 y se obtiene la factorial (24 * 5 = 120), de esta forma, los resultados de las multiplicaciones se van acumulando hasta obtener la factorial.
     TabsB.my-5.color-acento-contenido
@@ -328,7 +332,7 @@
               img(src='@/assets/curso/temas/img50.svg', alt='Imagen que muestra la estructura del algoritmo del caso propuesto.' )
           .col-lg-5
             figure.my-5
-              img(src='@/assets/curso/temas/img51.svg', alt='' )
+              img(src='@/assets/curso/temas/img51.svg', alt='Imagen que muestra la estructura del algoritmo del caso propuesto.' )
 
 </template>
 

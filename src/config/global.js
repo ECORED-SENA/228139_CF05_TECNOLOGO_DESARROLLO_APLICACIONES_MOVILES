@@ -120,7 +120,7 @@ export default {
       {
         nombreRuta: 'tema8',
         numero: '8',
-        titulo: 'Conceptos básicos de programación.',
+        titulo: 'Conceptos básicos de programación',
         desarrolloContenidos: true,
       },
       {
@@ -245,28 +245,28 @@ export default {
     {
       tema: '2. Diagramas de flujo',
       referencia:
-        'Material_Audiovisual_100319633. (6 de enero de 2021). App Diagrams.net (básico para diagramas de flujo). [Video]. YouTube.',
+        'Material_Audiovisual_100319633. (6 de enero de 2021). App Diagrams.net (básico para diagramas de flujo).',
       tipo: 'Video',
       link: 'https://youtu.be/jdnqmFpqTvo ',
     },
     {
       tema: '2. Diagramas de flujo',
       referencia:
-        'Enrique Olivares. (23 de febrero de 2016). Introducción a utilizar el programa DIA para diagramas de flujo a nivel bachillerato. [Video]. YouTube. ',
+        'Enrique Olivares. (23 de febrero de 2016). Introducción a utilizar el programa DIA para diagramas de flujo a nivel bachillerato. ',
       tipo: 'Video',
       link: 'https://youtu.be/DnRx9D7QWg8',
     },
     {
       tema: '2. Diagramas de flujo',
       referencia:
-        'DiscoDurodeRoer. (27 de abril de 2015). Ejercicios PseInt - Básicos #1 - Empezando por lo básico. [Video]. YouTube.',
+        'DiscoDurodeRoer. (27 de abril de 2015). Ejercicios PseInt - Básicos #1 - Empezando por lo básico.',
       tipo: 'Video',
       link: 'https://youtu.be/DHIi4dcaMEc ',
     },
     {
       tema: '2. Diagramas de flujo',
       referencia:
-        'Insituto de Informática Uach. (08 de septiembre de 2020). Cómo descargar Draw.io 2 para dibujar diagramas de flujo. [Video]. YouTube.',
+        'Insituto de Informática Uach. (08 de septiembre de 2020). Cómo descargar Draw.io 2 para dibujar diagramas de flujo.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=encz3h8TLWA',
     },
@@ -280,7 +280,7 @@ export default {
     {
       tema: '9. Entornos de codificación e instalación',
       referencia:
-        'Code Compadre. (30 de junio de 2020). How to Download and Install Visual Studio Code for Windows 10. [Video]. YouTube. ',
+        'Code Compadre. (30 de junio de 2020). How to Download and Install Visual Studio Code for Windows 10. ',
       tipo: 'Video',
       link: 'https://youtu.be/KpzkPlh_HsU',
     },

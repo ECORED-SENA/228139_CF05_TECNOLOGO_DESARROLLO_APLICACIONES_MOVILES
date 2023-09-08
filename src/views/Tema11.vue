@@ -35,11 +35,15 @@
       img(src='@/assets/curso/temas8-13/img47.jpg', alt='' style="width:500px").m-auto
       figcaption(style="width:500px").m-auto Figura 31/ Mensaje de depuración
 
-    a.anexo.m-auto(href="https://youtu.be/Hf3n-p3VYx4" target="_blank" style="width: 100%")
-        .anexo__icono
-          img(src="@/assets/template/icono-link.svg")
-        .anexo__texto
-          p #[strong Enlace web.] Se puede revisar el procedimiento de despliegue y uso de consola para el navegador Google Chrome en el siguiente enlace https://youtu.be/Hf3n-p3VYx4 (Choque, R. C, 2020).
+    p.mb-5 Se puede revisar el procedimiento de despliegue y uso de consola para el navegador Google Chrome en el siguiente enlace:
+
+    .row.justify-content-center
+      .col-xl-6
+        a.anexo.m-auto(href="https://youtu.be/Hf3n-p3VYx4" target="_blank" style="width: 100%")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p #[strong Enlace web.]Como usar la consola de google chrome para Javascript.
 
 </template>
 

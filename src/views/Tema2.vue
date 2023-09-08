@@ -15,7 +15,7 @@
       h5 Figura 2.
       span Diagrama de flujo imprimir un entero
     figure.mb-5
-      img(src='@/assets/curso/temas/img13.png', alt='')
+      img(src='@/assets/curso/temas/img13.png', alt='Imagen de la representación del algoritmo Imprimir un entero. Su estructura es: inicio, por favor ingrese un número, entrada, entrada, fin.')
 
 
     .tarjeta.tarjeta--gris.p-3.mb-5
@@ -38,7 +38,7 @@
       h5 Figura 3.
       span Diagrama de flujo imprimir el cuadrado y el cubo de un entero
     figure.mb-5
-      img(src='@/assets/curso/temas/img14.svg', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/temas/img14.svg', alt='Imagen de la representación del algoritmo Imprimir el cuadrado y el cubo de un entero. Su estructura es: inicio, por favor ingrese un número, entrada, cuadrado entrada por entrada, cubo entrada por entrada por entrada, cuadrado, cuadrado, fin.')
 
     p La Organización Internacional para la Estandarización (ISO, por su sigla en inglés) y el Instituto Nacional Americano de Estandarización (ANSI, por su sigla en inglés), estandarizaron los símbolos que han sido mayor mente aceptados en 1985. Con el fin de evitar la utilización de símbolos diferentes para representar procesos iguales (López, 2009).
     p Los siguientes son los principales símbolos para crear diagramas de flujo:
@@ -115,7 +115,7 @@
 
     #t_2_2
     .titulo-segundo.color-acento-contenido
-      .h2 2.2. Herramientas digitales para creación y prueba de algoritmos
+      .h2 2.2 Herramientas digitales para creación y prueba de algoritmos
 
     p Para aprender a reconocer los elementos que componen los diagramas de flujo se puede hacer uso de la herramienta denominada Draw.io a través del enlace &nbsp;
       a.link(href="https://app.diagrams.net/ " target="_blank")
@@ -127,13 +127,17 @@
       h5 Figura 4.
       span Seleccionar formas
     figure.mb-5
-      img(src='@/assets/curso/temas/img28.png', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/temas/img28.png', alt='Imagen del entorno de Draw.io que muestra las posibilidades de diagramas por seleccionar. La imagen resalta la selección específica de Formas')
       figcaption  Nota.Tomada de https://app.diagrams.net/
 
-    p.mb-5 En caso de contar con intermitencia de internet se puede realizar el ejercicio propuesto a través del programa de libre distribución disponible en &nbsp;
+    p En caso de contar con intermitencia de internet se puede realizar el ejercicio propuesto a través del programa de libre distribución disponible en &nbsp;
       a.link(href="http://dia-installer.de/" target="_blank") http://dia-installer.de/
       | o puede acceder a la versión de escritorio de Draw.io disponible en &nbsp;
       a.link(href="https://app.diagrams.net/" target="_blank") https://app.diagrams.net/
+      |.
+
+    p.mb-5 Consulte el video que se propone en el siguiente enlace y afiance sus conocimientos en cómo descargar draw io 2 para dibujar diagramas de flujo:
+
     a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=encz3h8TLWA" target="_blank")
         .anexo__icono
           img(src="@/assets/template/icono-link.svg")

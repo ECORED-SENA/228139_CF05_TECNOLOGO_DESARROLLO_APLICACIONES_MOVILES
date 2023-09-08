@@ -64,7 +64,7 @@
               img(src='@/assets/curso/temas/img60.svg', alt='Imagen de la estructura del algoritmo del ejemplo propuesto.' )
           .col-lg-5
             figure.my-5
-              img(src='@/assets/curso/temas/img61.svg', alt='' )
+              img(src='@/assets/curso/temas/img61.svg', alt='Imagen de la estructura del algoritmo del ejemplo propuesto.' )
 
 
           h3.mb-4 #[i.fas.fa-angle-double-right.txt--color-acento-contenido] Diseño de prueba 1

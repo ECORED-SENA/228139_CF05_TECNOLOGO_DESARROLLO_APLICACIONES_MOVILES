@@ -37,9 +37,9 @@
             td.text-center
               a.link(href="https://playcode.io/" target="_blank")
                 | https://playcode.io/
-            td Woodrow, J (2018) How to use playcode.io.
-              a.link(href="https://www.youtube.com/watch?v=9rtsvbc4KZI " target="_blank")
-                | https://www.youtube.com/watch?v=9rtsvbc4KZI
+            td Harlley Oliveira (2017). #[em PLAYCODE MAKERS: O QUE É JAVASCRIPT?]&nbsp;
+              a.link(href="https://www.youtube.com/watch?v=1mjvPBHiYnY" target="_blank")
+                | https://www.youtube.com/watch?v=1mjvPBHiYnY
           tr
             td.text-center Intérprete de JavaScript: Node js
             td.text-center.header2

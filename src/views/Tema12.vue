@@ -26,16 +26,16 @@
       ul.lista-ul--color.ps-2
         li
           i.fas.fa-check
-          span.mb-0 #[strong Console:] la consola se utiliza para imprimir registros, muestra errores y advertencias.
+          span.mb-0 #[strong #[i Console]:] la consola se utiliza para imprimir registros, muestra errores y advertencias.
         li
           i.fas.fa-check
-          span.mb-0 #[strong Elements:] se pueden seleccionar los elementos para inspeccionar los elementos HTML y hacer estilos en ellos.
+          span.mb-0 #[strong #[i Elements]:] se pueden seleccionar los elementos para inspeccionar los elementos HTML y hacer estilos en ellos.
         li
           i.fas.fa-check
-          span.mb-0 #[strong Sources:] permite navegar los archivos que están presentes en la página cargada y se puede elegir el archivo que se desea consultar.
+          span.mb-0 #[strong #[i Sources]:] permite navegar los archivos que están presentes en la página cargada y se puede elegir el archivo que se desea consultar.
         li.mb-0
           i.fas.fa-check
-          span.mb-0 #[strong Network:] empleado para inspeccionar todas las llamadas de red que realizan los clientes al servidor, como las cabeceras HTTP, el contenido y el tamaño.
+          span.mb-0 #[strong #[i Network]:] empleado para inspeccionar todas las llamadas de red que realizan los clientes al servidor, como las cabeceras HTTP, el contenido y el tamaño.
 
     h4.mb-5
       span.span-amarillo.h4.ps-4.pe-4.py-2.mb-5 B. Seleccionar fuente (#[em sources])
@@ -72,13 +72,13 @@
 
     .row.my-5
       .col-lg-6
-        p.mb-5 El punto más importante es conocer los valores de las variables, esto se hace pasando el ratón por encima de la variable. La principal  ventaja de usar puntos de ruptura es que se pueden conocer los valores de más de una variable al mismo tiempo, lo que no es posible en el  caso de las consolas de registro, donde se debe escribir #[code.etiqueta console.log()] para cada variable.
-
+        p El punto más importante es conocer los valores de las variables, esto se hace pasando el ratón por encima de la variable. La principal  ventaja de usar puntos de ruptura es que se pueden conocer los valores de más de una variable al mismo tiempo, lo que no es posible en el  caso de las consolas de registro, donde se debe escribir #[code.etiqueta console.log()] para cada variable.
+        p.mb-4 Se puede ver un ejemplo en el siguiente enlace:
         a.anexo.mb-4.mb-lg-5.m-auto(href="https://youtu.be/I388w3wDkjc" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p #[strong Enlace web.] Se puede ver un ejemplo en el siguiente enlace: https://youtu.be/I388w3wDkjc (Autodidacta F, 2017).
+            p #[strong Enlace web.] Depurar o hacer debug a javascript con google chrome.
 
       .col-lg-6
         figure.mb-5

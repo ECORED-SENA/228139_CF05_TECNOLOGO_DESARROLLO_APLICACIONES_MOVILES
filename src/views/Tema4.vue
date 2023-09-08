@@ -80,43 +80,43 @@
       table
         thead.encabezado-tabla
           tr
-            th Orden
+            th(style="width:10%") Orden
             th Operación
-            th Explicación y expresión resultante
+            th(style="width:70%") Explicación y expresión resultante
         tbody
           tr
-            th 1
+            th.text-center 1
             td #[strong 7 + 8]
             td
               p Primero que todo lo que más valor tiene en la jerarquía son los paréntesis de manera que y en particular los más interiores de esta forma el computador se interesará en resolver primero el contenido de #[strong (7 + 8)]. Y el resultado será #[strong 15].
               p De esta forma, la expresión queda reducida a:
               p #[strong (2 + 15 * 16 + 3#[sup 2]) /4 +5]
           tr
-            th 2
+            th.text-center 2
             td #[strong 3#[sup 2]]
             td
               p De la expresión resultante luego de la operación 1,se observa que nuevamente hay un paréntesis por reducir, de manera que la computadora intentará resolver su contenido primero, como dentro del paréntesis está la expresión de elevar al cuadrado el número 3 #[strong (3#[sup 2])] que tiene como resultado 9, la expresión resultante sería:
               p #[strong (2 + 15 * 16 + 9) /4 +5]
           tr
-            th 3
+            th.text-center 3
             td #[strong 15 * 16]
             td
               p De los paréntesis de la expresión resultante la operación de más jerarquía es la multiplicación #[strong 15 * 16] que tiene como resultado 240, la expresión resultante sería:
               p #[strong (2 + 240 + 9) /4 +5]
           tr
-            th 4
+            th.text-center 4
             td #[strong 2+24+9]
             td
               p De la expresión resultante el que tiene mayor precedencia es el paréntesis por lo tanto la suma aritmética de su contenido data como expresión resultante:
               p #[strong 251/4 +5]
           tr
-            th 5
+            th.text-center 5
             td #[strong 251/4]
             td
               p De la expresión resultante el operador de mayor jerarquía es la división y da como resultado 62.75 que en la siguiente operación se le sumará el valor de 5 la expresión resultante será:
               p #[strong 62,75 + 5]
           tr
-            th 6
+            th.text-center 6
             td #[strong 62,75 + 5]
             td #[strong 67,75]
 

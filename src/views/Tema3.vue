@@ -59,7 +59,7 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Variables")
         p Para los algoritmos con diversos conjuntos de datos iniciales, se debe determinar una independencia entre los datos iniciales de un problema y la estructura de su solución. Esto se hace mediante la utilización de variables (cantidades que se suelen emplear y que durante la ejecución del algoritmo pueden tomar cualquier valor de un intervalo de valores posibles).
-        p Las variables son espacios de trabajo (contenedores) dispuestos para almacenar datos (valores). El valor de una variable puede ir cambiando en   algún paso del algoritmo o permanecer sin cambios; por lo tanto, el valor de una variable es el del último valor o dato asignado a esta. En la  figura 6, las variables eran los indicadores #[strong cuadrados] y #[strong cubo.]
+        p Las variables son espacios de trabajo (contenedores) dispuestos para almacenar datos (valores). El valor de una variable puede ir cambiando en   algún paso del algoritmo o permanecer sin cambios; por lo tanto, el valor de una variable es el del último valor o dato asignado a esta.
       .row(titulo="Constantes")
         p Las constantes se crean de la misma forma que las variables, a diferencia que se procura su definición o creación a inicio del algoritmo. Las constantes consisten en datos que, luego de ser asignados, no cambian en ninguna instrucción del algoritmo; pueden contener constantes matemáticas (pi).
       .row(titulo="Contadores")
@@ -68,7 +68,7 @@
           .row.align-items-center
             .col-auto
               figure.d-none.d-xl-block.d-xxl-block
-                img(src='@/assets/curso/temas/img30.svg', alt='' style='max-width: 60px')
+                img(src='@/assets/curso/temas/img30.svg', alt='Imagen que muestra el algoritmo contador que se incrementa en uno cada vez tres veces.' style='max-width: 60px')
             .col-auto
               p.mb-0 #[strong Ejemplo:] definir un contador llamado contador que se incremente en uno cada vez tres veces.
 
