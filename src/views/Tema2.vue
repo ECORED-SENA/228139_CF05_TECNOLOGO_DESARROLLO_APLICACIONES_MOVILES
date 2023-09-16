@@ -40,7 +40,7 @@
     figure.mb-5
       img(src='@/assets/curso/temas/img14.svg', alt='Imagen de la representación del algoritmo Imprimir el cuadrado y el cubo de un entero. Su estructura es: inicio, por favor ingrese un número, entrada, cuadrado entrada por entrada, cubo entrada por entrada por entrada, cuadrado, cuadrado, fin.')
 
-    p La Organización Internacional para la Estandarización (ISO, por su sigla en inglés) y el Instituto Nacional Americano de Estandarización (ANSI, por su sigla en inglés), estandarizaron los símbolos que han sido mayor mente aceptados en 1985. Con el fin de evitar la utilización de símbolos diferentes para representar procesos iguales (López, 2009).
+    p La Organización Internacional para la Estandarización (ISO, por su sigla en inglés) y el Instituto Nacional Americano de Estandarización (ANSI, por su sigla en inglés), estandarizaron los símbolos que han sido mayormente aceptados en 1985. Con el fin de evitar la utilización de símbolos diferentes para representar procesos iguales (López, 2009).
     p Los siguientes son los principales símbolos para crear diagramas de flujo:
     .tarjetas_container.mb-5
       .tarjetas_container--organizada.p-3.m-3

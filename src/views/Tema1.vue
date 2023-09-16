@@ -176,7 +176,7 @@
         p Una vez realizadas las operaciones el algoritmo debe mostrar en pantalla el contenido de estas variables, con un mensaje texto que indique si es el resultado del cuadrado o del cubo.
 
       .py-4.py-md-5(titulo="Diseño" :icono="require('@/assets/curso/temas/img8.svg')")
-        p.mb-4 #[span.etiqueta--amarilla Diseño:] la siguiente figura tiene la representación del resultado al análisis anterior.
+        p.mb-4 #[span.etiqueta--amarilla Diseño:] la siguiente imagen tiene la representación del resultado al análisis anterior.
 
         .row.justify-content-center
           .col-12.col-lg-8

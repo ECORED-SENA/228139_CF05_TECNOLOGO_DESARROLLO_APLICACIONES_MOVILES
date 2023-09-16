@@ -78,7 +78,7 @@
         figure.mb-5
           img(src='@/assets/curso/temas/img62.svg', alt='Imagen que muestra el diseño de prueba del algoritmo solicitado: mostrar el mayor de dos números.' )
 
-    p Una prueba de escritorio no es determinante en este ejercicio, es necesario hacerla para los dos casos faltantes, en caso que el segundo número es mayor que el primero y el caso en que ambos números ingresados son iguales. Se propone que use el ejemplo de la figura 18 para realizar el desarrollo final del ejemplo.
+    p Una prueba de escritorio no es determinante en este ejercicio, es necesario hacerla para los dos casos faltantes, en caso que el segundo número es mayor que el primero y el caso en que ambos números ingresados son iguales.
 
 
 </template>

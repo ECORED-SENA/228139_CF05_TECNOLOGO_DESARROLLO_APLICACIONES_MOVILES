@@ -10,7 +10,7 @@
 
     figure.mb-5
       img(src='@/assets/curso/temas8-13/img46.jpg', alt='')
-    p.mb-5 La principal funcionalidad que se requiere en la depuración del código, es la mostrar salidas parciales de datos de depuración del estado de las variables, o tal vez se tenga la necesidad de mostrar que se está ejecutando determinada línea de código. Por lo general, la salida de JavaScript está dirigida hacia un navegador o hacia un flujo de datos de un servidor web, dejando la consola para realizar estas depuraciones
+    p.mb-5 La principal funcionalidad que se requiere en la depuración del código, es mostrar salidas parciales de datos de depuración del estado de las variables, o tal vez se tenga la necesidad de mostrar que se está ejecutando determinada línea de código. Por lo general, la salida de JavaScript está dirigida hacia un navegador o hacia un flujo de datos de un servidor web, dejando la consola para realizar estas depuraciones
 
     .row.mb-5.align-items-center
       .col-lg-5

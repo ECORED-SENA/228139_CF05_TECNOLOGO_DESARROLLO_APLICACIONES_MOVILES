@@ -96,7 +96,7 @@ export default {
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Estructura de datos (arreglos, matrices)',
+        titulo: 'Estructura de datos',
         desarrolloContenidos: true,
         subMenu: [
           {

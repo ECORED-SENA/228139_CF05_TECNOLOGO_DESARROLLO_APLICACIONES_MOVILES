@@ -45,7 +45,7 @@
         p Una vez se tiene que ir a la sección del archivo con el código fuente a depurar, se puede navegar a través de él e identificar la porción   de código en la que se sospecha ocurre un error en la lógica.
       .col-lg-6
         figure
-          img(src='@/assets/curso/temas8-13/img49.jpg', alt='Imagen que muestra la selección de fuente.').m-auto
+          img(src='@/assets/curso/temas8-13/paso-2.png', alt='Panel de "sources" en el navegador').m-auto
 
     h4.mb-5
       span.span-amarillo.h4.ps-4.pe-4.py-2.mb-5 C. Marcar punto de interrupción
@@ -55,7 +55,7 @@
         p Un punto de interrupción es una línea de código donde el programa se detendrá. Ya seleccionado el archivo a ser depurado, se puede ver que  hay números de línea escritos por cada línea de código. Se debe hacer clic en este número de línea y esta línea actuará como un punto de   interrupción y la ejecución se detendrá una vez que el control llegue a esta línea.
       .col-lg-6
         figure
-          img(src='@/assets/curso/temas8-13/img50.jpg', alt='').m-auto
+          img(src='@/assets/curso/temas8-13/paso-3.png', alt='Línea 17 marcada como punto de ruptura (breakpoint)').m-auto
 
     h4.mb-5
       span.span-amarillo.h4.ps-4.pe-4.py-2.mb-5 D. Avanzar línea a línea
@@ -64,8 +64,9 @@
       .col-lg-6
         p Cuando la ejecución se detiene en el punto de interrupción, se puede reanudar la ejecución haciendo clic en el botón azul que se muestra en   la figura, así la ejecución avanza línea por línea. Aquí se puede inspeccionar cada línea de código junto con los valores contenidos en  las variables.
       .col-lg-6
-        figure
-          img(src='@/assets/curso/temas8-13/img51.jpg', alt='').m-auto
+        .bg-negro
+          figure
+            img(src='@/assets/curso/temas8-13/paso-6.png', alt='Ejecución detenida debido al punto de interrupción (breakpoint)').m-auto
 
     h4.mb-5
       span.span-amarillo.h4.ps-4.pe-4.py-2.mb-5 E. Comprobar el estado de las variables
@@ -82,7 +83,7 @@
 
       .col-lg-6
         figure.mb-5
-            img(src='@/assets/curso/temas8-13/img52.jpg', alt='').m-auto
+            img(src='@/assets/curso/temas8-13/paso-5.png', alt='Inspección de los valores presentes en las variables.').m-auto
 
 
 

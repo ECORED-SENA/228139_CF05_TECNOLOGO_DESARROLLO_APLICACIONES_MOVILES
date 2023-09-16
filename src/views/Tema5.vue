@@ -147,7 +147,7 @@
             figure
               img(src='@/assets/curso/temas/img44.svg', alt='Imagen de la estructura del algoritmo del ejemplo propuesto.' )
 
-    p.mb-5 En este ejemplo concreto,, no se ejecuta nada en caso de que NO se cumpla la condición. Este tipo de estructura condicional se denomina #[strong ESTRUCTURA CONDICIONAL SIMPLE]; además, todo el proceso #[i (pedir la edad, comprobar la condición, mostrar o no el mensaje)] se realiza una única vez y finaliza la ejecución del algoritmo, si se deseara que el programa repitiera estas mismas operaciones más de una vez, se tendría que usar una estructura de iteración como se verá a continuación.
+    p.mb-5 En este ejemplo concreto, no se ejecuta nada en caso de que NO se cumpla la condición. Este tipo de estructura condicional se denomina #[strong ESTRUCTURA CONDICIONAL SIMPLE]; además, todo el proceso #[i (pedir la edad, comprobar la condición, mostrar o no el mensaje)] se realiza una única vez y finaliza la ejecución del algoritmo, si se deseara que el programa repitiera estas mismas operaciones más de una vez, se tendría que usar una estructura de iteración como se verá a continuación.
 
 
     #t_5_3

@@ -15,7 +15,7 @@
     .titulo-segundo.color-acento-contenido
       .h2 10.1 Funciones y operaciones matemáticas
 
-    p En JavaScript se pueden utilizar muchas funciones matemáticas; por ejemplo, un algoritmo que toma dos números (8 y 6) y le aplica las 4 operaciones básicas y en el editor de código online PlayCode (disponible en &nbsp;
+    p En JavaScript se pueden utilizar muchas funciones matemáticas; por ejemplo, un algoritmo que toma dos números (8 y 6) y le aplica las 4 operaciones básicas y en el editor de código #[em online] PlayCode (disponible en &nbsp;
       a.link(href="https://playcode.io/" target="_blank") https://playcode.io/)
       | &nbsp; se revisan las características de la sintaxis del JavaScript y a la vez se conocen las operaciones matemáticas del lenguaje.
 
@@ -165,7 +165,7 @@
     h4.mb-5
       span.span-amarillo.h4.ps-4.pe-4.py-2.mb-5 B. Operadores
 
-    p.mb-5.mt-3 Se considera una expresión, aunque de un tipo distinto, el asignar un valor a una variable. Para todas estas operaciones se emplean los denominados ‘operadores‘. Se listan a continuación algunos de los operadores que se utilizan con mucha frecuencia.
+    p.mb-5.mt-3 Se considera una expresión, aunque de un tipo distinto, el asignar un valor a una variable. Para todas estas operaciones se emplean los denominados "operadores". Se listan a continuación algunos de los operadores que se utilizan con mucha frecuencia.
 
     TabsC.mb-5
       .p-4(titulo="Operadores de asignación")
@@ -341,7 +341,7 @@
         .row.mb-5
           .col-md-7.mb-4.mb-md-0
             .h4 Operadores lógicos
-            p Con los operadores lógicos, se pueden crear condiciones compuestas, por ejemplo, cuando se deben cumplir dos o más condiciones para elegir las operaciones ejecutar; además, se pueden describir estas combinaciones de condiciones (tabla 5 y figura 5).
+            p Con los operadores lógicos, se pueden crear condiciones compuestas, por ejemplo, cuando se deben cumplir dos o más condiciones para elegir las operaciones ejecutar; además, se pueden describir estas combinaciones de condiciones:
 
           .col-md-5
             figure
@@ -770,15 +770,15 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       div(titulo="Sentencia <code>continue</code>").p-4
-        p.mb-5 La sentencia continue se salta a la siguiente iteración del ciclo for o while como se presenta en el siguiente ejemplo y teniendo en cuenta los resultados.
+        p.mb-5 La sentencia continue se salta a la siguiente iteración del ciclo #[code.etiqueta for] o #[code.etiqueta while] como se presenta en el siguiente ejemplo y teniendo en cuenta los resultados.
 
         figure.mb-5
           img(src='@/assets/curso/temas8-13/img33.jpg', alt='Imagen que muestra un código donde la sentencia continue se salta a la siguiente iteración del ciclo for o while.')
 
-        p Como se observa, cuando la variable i tiene el valor 3, se ejecuta la sentencia continue se salta la sentencia donde debe imprimir el valor de 3, por ese motivo no aparece en la consola.
+        p Como se observa, cuando la variable i tiene el valor 3, se ejecuta la sentencia #[code.etiqueta continue] se salta la sentencia donde debe imprimir el valor de 3, por ese motivo no aparece en la consola.
 
       div(titulo="Sentencia <code>break</code>").p-4
-        p.mb-5 Por otro lado, la sentencia break, detiene la ejecución del ciclo independientemente de cuántas veces este configurando el ciclo.
+        p.mb-5 Por otro lado, la sentencia #[code.etiqueta break], detiene la ejecución del ciclo independientemente de cuántas veces este configurando el ciclo.
 
         figure.mb-5
           img(src='@/assets/curso/temas8-13/img34.jpg', alt='Imagen que muestra código con uso de sentencia break.')
@@ -787,7 +787,7 @@
 
       div(titulo="Sentencia <code>return</code>").p-4
         p Sirve para terminar la ejecución de un bloque de instrucciones, se usa mucho en programación modular cuando se quiere retornar un resultado, se usará más adelante.
-        p.mb-5 Por ejemplo, se tiene una función que divide un número entre 4 y se ha creado para obtener resultados. En el primer caso se le pasa 27 para que lo divida entre 4 pero como no hay return dentro, devuelve #[code.etiqueta undefined]. No accede al número porque el número solo vive dentro de la función y no hay nada que dé el valor. Si se le agrega return, efectivamente se obtiene el resultado de la división.
+        p.mb-5 Por ejemplo, se tiene una función que divide un número entre 4 y se ha creado para obtener resultados. En el primer caso se le pasa 27 para que lo divida entre 4 pero como no hay #[code.etiqueta return] dentro, devuelve #[code.etiqueta undefined]. No accede al número porque el número solo vive dentro de la función y no hay nada que dé el valor. Si se le agrega #[code.etiqueta return], efectivamente se obtiene el resultado de la división.
         figure
           img(src='@/assets/curso/temas8-13/img35.jpg', alt='Imagen que muestra código con sentencia return y sin sentencia return.')
 

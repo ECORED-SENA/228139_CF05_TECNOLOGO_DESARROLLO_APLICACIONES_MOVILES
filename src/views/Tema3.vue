@@ -75,11 +75,11 @@
         figure.mb-4
           img(src='@/assets/curso/temas/img31.svg', alt='' style='max-width: 800px').m-auto
 
-        p Como se puede ver en el algoritmo, tres veces se incremente en 1 (uno) el valor del contador y al final de la ejecución su valor es de 3. Es importante notar que contador inicia con un valor, el valor 0, si esta asignación inicial no se hace el computador pondría un valor aleatorio y el valor al final del algoritmo sería indeterminado.
+        p Como se puede ver en el algoritmo, tres veces se incrementa en 1 (uno) el valor del contador y al final de la ejecución su valor es de 3. Es importante notar que contador inicia con un valor, el valor 0, si esta asignación inicial no se hace el computador pondría un valor aleatorio y el valor al final del algoritmo sería indeterminado.
 
 
       .row(titulo="Acumuladores")
-        p Los acumuladores son una versión ampliada de contadores, tienen las mismas características que un contador excepto el valor que se va incrementando no es una constante sino una que es un valor variable.
+        p Los acumuladores son una versión ampliada de contadores, tienen las mismas características que un contador, excepto el valor que se va incrementando; no es una constante, sino que es un valor variable.
 
 </template>
 
